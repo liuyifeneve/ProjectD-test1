@@ -1,1 +1,144 @@
-@charset "utf-8";*{margin:0;padding:0;text-decoration:none;list-style-type:none}body{min-width:980px;margin:0 auto;background-color:#e4efdc}.headitem{border:solid 3px #4189ad;padding:10px 20px;margin:80px 5px 30px;font-size:30px;font-family:"黑体";display:inline-block;text-align:center}.ulitem{width:400px;margin:0 auto}.teaminfo{color:#4189ad;padding:50px;font-size:26px;font-family:"黑体";width:980px;margin:0 auto}.teaminfo h2{margin-bottom:30px}.mainframe{width:980px;margin:auto}.personinfo{width:450px;margin:100px 18px;height:250px;display:inline-block}.personinfo h3{border-bottom:5px solid #bc7b5b;padding:10px}.personinfo article{width:250px;float:right;padding:30px;line-height:22px}.personpic{border:5px solid #bc7b5b;display:inline-block}.personlist{display:inline-block;color:#bc7b5b;font-size:30px;position:relative;bottom:20px}.personlist header{padding:15px 10px}.personlist li{color:#878787;font-size:16px;padding:5px 10px;font-family:"楷体"}.middleblock{width:980px;margin:0 auto}
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  min-width: 980px;
+  margin: 0 auto;
+  background-color: #E4EFDC;
+}
+.ulitem {
+  width: 400px;
+  margin: 0 auto;
+}
+.ulitem li {
+  padding: 10px 20px;
+  margin: 80px 5px 30px;
+  font-size: 30px;
+  font-family: "黑体";
+  display: inline-block;
+  text-align: center;
+}
+.ulitem .presentPage {
+  border: solid 3px #4189AD;
+}
+.ulitem .availPage {
+  border: solid 3px #E4EFDC;
+}
+.ulitem .availPage:hover {
+  color: #878787;
+}
+.teaminfo {
+  color: #4189AD;
+  padding: 50px;
+  font-size: 26px;
+  font-family: "黑体";
+  width: 980px;
+  margin: 0px auto;
+}
+.teaminfo h2 {
+  margin-bottom: 30px;
+}
+.mainframe {
+  width: 980px;
+  margin: auto;
+  display: block;
+}
+.personinfo {
+  width: 450px;
+  margin: 100px 18px;
+  height: 250px;
+  display: inline-block;
+}
+.personinfo h3 {
+  padding: 10px;
+}
+.personinfo article {
+  width: 250px;
+  float: right;
+  padding: 30px;
+  line-height: 22px;
+}
+.personinfo .personpic {
+  display: inline-block;
+}
+.personinfo .personlist {
+  display: inline-block;
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+}
+.personinfo header {
+  padding: 15px 10px;
+}
+.personinfo li {
+  color: #878787;
+  font-size: 16px;
+  padding: 5px 10px;
+  font-family: "楷体";
+}
+.personinfo1 h3 {
+  border-bottom: 5px solid #4189ad;
+}
+.personinfo1 .personpic {
+  border: 5px solid #4189ad;
+}
+.personinfo1 .personlist {
+  color: #4189ad;
+}
+.personinfo2 h3 {
+  border-bottom: 5px solid #fdd421;
+}
+.personinfo2 .personpic {
+  border: 5px solid #fdd421;
+}
+.personinfo2 .personlist {
+  color: #fdd421;
+}
+.personinfo3 h3 {
+  border-bottom: 5px solid #bc7b5b;
+}
+.personinfo3 .personpic {
+  border: 5px solid #bc7b5b;
+}
+.personinfo3 .personlist {
+  color: #bc7b5b;
+}
+.personinfo4 h3 {
+  border-bottom: 5px solid #2aaa0f;
+}
+.personinfo4 .personpic {
+  border: 5px solid #2aaa0f;
+}
+.personinfo4 .personlist {
+  color: #2aaa0f;
+}
+.personinfo5 h3 {
+  border-bottom: 5px solid #fc9924;
+}
+.personinfo5 .personpic {
+  border: 5px solid #fc9924;
+}
+.personinfo5 .personlist {
+  color: #fc9924;
+}
+.personinfo6 h3 {
+  border-bottom: 5px solid #f1a090;
+}
+.personinfo6 .personpic {
+  border: 5px solid #f1a090;
+}
+.personinfo6 .personlist {
+  color: #f1a090;
+}
+footer {
+  color: #878787;
+  font-size: 26px;
+  text-align: center;
+  margin: 80px auto;
+  display: block;
+}

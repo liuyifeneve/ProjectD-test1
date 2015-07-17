@@ -6,18 +6,26 @@ body {
   margin: 0 auto;
   background-color: #E4EFDC;
 }
-.headitem{
-	border: solid 3px #4189AD;
-	padding:10px 20px;
-	margin:80px 5px 30px;
-	font-size:30px;
-	font-family:"黑体";
-	display:inline-block;
-	text-align:center;
-}
 .ulitem{
 	width:400px;
 	margin: 0 auto;
+	li{
+		padding:10px 20px;
+		margin:80px 5px 30px;
+		font-size:30px;
+		font-family:"黑体";
+		display:inline-block;
+		text-align:center;
+	}
+	.presentPage{
+		border: solid 3px #4189AD;
+	}
+	.availPage{
+		border: solid 3px #E4EFDC;
+		&:hover{
+			color:#878787;
+		}
+	}
 }
 
 .teaminfo{
@@ -25,7 +33,8 @@ body {
 	padding:50px;
 	font-size:26px;
 	font-family:"黑体";
-	.middleblock;
+	width: 980px;
+	margin: 0px auto;
 	h2{
 		margin-bottom:30px;
 	}
@@ -33,6 +42,7 @@ body {
 .mainframe{
 	width:980px;
 	margin:auto;
+	display:block;
 }
 .personinfo{
 	width: 450px;
@@ -40,7 +50,6 @@ body {
 	height:250px;
 	display:inline-block;
 	h3{
-		border-bottom:5px solid #BC7B5B; 
 		padding:10px;
 	}
 	article{
@@ -49,17 +58,15 @@ body {
 		padding:30px;
 		line-height: 22px;
 	}
-}
-.personpic{
-	border: 5px solid #BC7B5B; 
-	display: inline-block;
-}
-.personlist{
-	display:inline-block;
-	color:#BC7B5B;
-	font-size:30px;
-	position:relative;
-	bottom:20px;
+	.personpic{
+		display: inline-block;
+	}
+	.personlist{
+		display:inline-block;
+		font-size:30px;
+		position:relative;
+		bottom:20px;
+	}
 	header{
 		padding:15px 10px;
 	}
@@ -70,7 +77,41 @@ body {
 		font-family:"楷体";
 	}
 }
-.middleblock{
-	width: 980px;
-	margin: 0px auto;
+.personinfodetail(@color){
+	h3{
+		border-bottom:5px solid @color; 
+	}
+	.personpic{
+		border: 5px solid @color; 
+	}
+	.personlist{
+		color:@color;
+	}
+}
+.personinfo1{
+	.personinfodetail(#4189AD);
+}
+.personinfo2{
+	.personinfodetail(#FDD421);
+}
+.personinfo3{
+	.personinfodetail(#BC7B5B);
+}
+.personinfo4{
+	.personinfodetail(#2AAA0F);
+}
+.personinfo5{
+	.personinfodetail(#FC9924);
+}
+.personinfo6{
+	.personinfodetail(#F1A090);
+}
+
+
+footer{
+	color:#878787;
+	font-size:26px;
+	text-align:center;
+	margin:80px auto;
+	display:block;
 }
