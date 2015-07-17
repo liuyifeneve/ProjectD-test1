@@ -1,0 +1,404 @@
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6,header,section,article,aside{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #A8A8A8;
+}
+body{
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+.color-one{
+    color:#4189AD;
+    border-color: #4189AD;
+}
+.color-two{
+    color: #FDD421;
+    border-color: #FDD421;
+}
+.color-three{
+    color: #BC7B5B;
+    border-color: #BC7B5B;
+}
+.color-four{
+    color: #2AAA0F;
+    border-color: #2AAA0F;
+}
+.color-five{
+    color: #FC9924;
+    border-color: #FC9924;
+}
+.color-six{
+    color: #F1A09A;
+    border-color: #F1A09A;
+}
+.bg-color-one{
+    background-color: #4189AD;
+}
+.bg-color-two{
+    background-color: #FDD421;
+}
+.bg-color-three{
+    background-color: #BC7B5B;
+}
+.bg-color-four{
+    background-color: #2AAA0F;
+}
+.bg-color-five{
+    background-color: #FC9924;
+}
+.bg-color-six{
+    background-color: #F1A09A;
+}
+
+@keyframes colorChange{
+    0%{
+    background: #E4EFDC;
+    }
+    20%{
+    background: #4189AD;
+    }
+    40%{
+    background: #FDD421;
+    }
+    60%{
+    background: #BC7B5B;
+    }
+    80%{
+    background: #2AAA0F;
+    }
+    90%{
+    background: #FC9924;
+    }
+    100%{
+    background: #F1A09A;
+    }
+}
+
+section,footer{
+    background: #E4EFDC;
+}
+
+.banner{
+    height: 700px;
+    width:100%;
+    margin: 0 auto;
+    background: url(imgs/banner-01.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 980px;
+    height: 1300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.nav{
+    width: 100%;
+}
+
+.nav ul{
+    overflow:hidden;
+    padding-left: 300px;
+    
+}
+
+.nav ul li{
+    float: left;
+    font-size: 18px;
+    padding: 8px 18px;
+    color: #dbdbdb;
+    margin-right: 50px;
+}
+
+.nav ul li.active-item{
+    border: 2px solid #4189AD;
+}
+.nav ul li.active-item a{
+    color: #4189AD;
+}
+
+.title{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 200px;
+}
+.title .title-content{
+    width: 250px;
+    margin: 0 auto;
+    color: #4189AD;
+}
+
+.main .main-list li{
+    float: left;
+    width: 490px;
+    height: 300px;
+}
+.main .main-list li .list-item{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main .main-list .list-item .info{
+    height: 60%;
+    width: 100%;
+    position: relative;
+}
+.hor{
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+}
+
+.info .head-img{
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    position: absolute;
+    border-width: 2px;
+    border-style: solid;
+    left: 0;
+    bottom: 20px;
+}
+.info .info-content{
+    width: 260px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.info-content .name{
+    margin-bottom: 18px;
+}
+.info-content .connection p{
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.des{
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+.des .des-content{
+    width: 260px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 110px;
+    font-size: 14px;
+}
+
+div.dot-list{
+    width: 100%;
+    padding-bottom: 60px;
+}
+.dot-list .tags{
+    width: 300px;  
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    
+}
+.dot-list .tags li{
+    float: left;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.dot-list .tags li a{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+   
+}
+#right{
+    text-align: center;
+}
+
+.line{
+    position: absolute;  
+    display: block;
+}
+.line-top{
+    left: -60px;
+    top: -2px;
+    -webkit-transition:all .2s ease;
+    transition: all .2s ease;
+
+}
+.color-one:hover .line-top{
+    width: 120px;
+    height: 2px;
+    left: -2px;
+    top: -2px;  
+}
+.color-two:hover .line-top{
+    width: 120px;
+    height: 2px;
+    left: -2px;
+    top: -2px;  
+}
+.color-three:hover .line-top{
+    width: 120px;
+    height: 2px;
+    left: -2px;
+    top: -2px;  
+}
+.color-four:hover .line-top{
+    width: 120px;
+    height: 2px;
+    left: -2px;
+    top: -2px;  
+}
+.color-five:hover .line-top{
+    width: 120px;
+    height: 2px;
+    left: -2px;
+    top: -2px;  
+}
+.color-six:hover .line-top{
+    width: 120px;
+    height: 2px;
+    left: -2px;
+    top: -2px;  
+}
+
+.line-right{
+    left: 116px;
+    top: -60px;
+    -webkit-transition:all .2s ease;
+    transition: all .2 ease;
+}
+.color-one:hover .line-right{
+    width: 2px;
+    height: 120px;
+    top: -2px;
+    left:116px; 
+}
+.color-two:hover .line-right{
+    width: 2px;
+    height: 120px;
+    top: -2px;
+    left:116px; 
+}
+.color-three:hover .line-right{
+    width: 2px;
+    height: 120px;
+    top: -2px;
+    left:116px; 
+}
+.color-four:hover .line-right{
+    width: 2px;
+    height: 120px;
+    top: -2px;
+    left:116px; 
+}
+.color-five:hover .line-right{
+    width: 2px;
+    height: 120px;
+    top: -2px;
+    left:116px; 
+}
+.color-six:hover .line-right{
+    width: 2px;
+    height: 120px;
+    top: -2px;
+    left:116px; 
+}
+
+.line-bottom{
+    left: 60px;
+    top: 116px;
+    -webkit-transition:all .2s ease;
+    transition: all .2 ease;
+}
+.color-one:hover .line-bottom{
+    height: 2px;
+    width: 120px;
+    top: 116px;
+    left: -2px;
+}
+.color-two:hover .line-bottom{
+    height: 2px;
+    width: 120px;
+    top: 116px;
+    left: -2px;
+}
+.color-three:hover .line-bottom{
+    height: 2px;
+    width: 120px;
+    top: 116px;
+    left: -2px;
+}
+.color-four:hover .line-bottom{
+    height: 2px;
+    width: 120px;
+    top: 116px;
+    left: -2px;
+}
+.color-five:hover .line-bottom{
+    height: 2px;
+    width: 120px;
+    top: 116px;
+    left: -2px;
+}
+.color-six:hover .line-bottom{
+    height: 2px;
+    width: 120px;
+    top: 116px;
+    left: -2px;
+}
+
+.line-left{
+    top: 60px;
+    left: -2px;
+    -webkit-transition:all .2s ease;
+    transition: all .5 ease;
+}
+.color-one:hover .line-left{
+    height: 120px;
+    width: 2px;
+    top: -2px;
+    left: -2px;
+}
+.color-two:hover .line-left{
+    height: 120px;
+    width: 2px;
+    top: -2px;
+    left: -2px;
+}
+.color-three:hover .line-left{
+    height: 120px;
+    width: 2px;
+    top: -2px;
+    left: -2px;
+}
+.color-four:hover .line-left{
+    height: 120px;
+    width: 2px;
+    top: -2px;
+    left: -2px;
+}
+.color-five:hover .line-left{
+    height: 120px;
+    width: 2px;
+    top: -2px;
+    left: -2px;
+}
+.color-six:hover .line-left{
+    height: 120px;
+    width: 2px;
+    top: -2px;
+    left: -2px;
+}
+
