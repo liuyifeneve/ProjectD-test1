@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  background-color: #FFF;
+}
+header {
+  text-align: center;
+  margin: 30px;
+}
+.chart {
+  width: 880px;
+  height: 450px;
+  margin: 60px auto;
+}
+.chartag {
+  width: 70px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px #FFF solid;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.chartag:hover {
+  border-bottom: 2px #BBFFFF solid;
+}
